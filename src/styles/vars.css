@@ -1,0 +1,9 @@
+:root {
+  --color-black: rgba(33, 37, 41, 1);
+  --color-black-hover: rgba(33, 37, 41, 0.75);
+  --color-grey-fade: rgba(163, 163, 163, 0.322);
+  --primary-action: #f96d00;
+  --primary-action-hover: #f96c00c2;
+  --secondary-action: #f2f2f2;
+  --secondary-action-hover: #f2f2f2c2;
+}

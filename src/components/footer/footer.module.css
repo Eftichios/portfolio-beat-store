@@ -1,0 +1,62 @@
+.footerContainer {
+  margin: 0 4rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 100px;
+}
+
+.beatInfoContainer {
+}
+
+.footerNavigationContainer {
+  display: grid;
+}
+
+.footerNavigationContainer a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.footerContainer :is(a:hover, a:focus, a p:hover, a p:focus) {
+  cursor: pointer;
+  color: var(--color-black-hover);
+  transition: 0.5s;
+}
+
+.footerNavigationContainer a p {
+  color: var(--color-black);
+}
+
+.hoverUnderlineAnimation {
+  display: inline-block;
+  position: relative;
+  color: var(--color-black-hover);
+}
+
+.hoverUnderlineAnimation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-black-hover);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoverUnderlineAnimation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.socialMediaLinks a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.socialMediaLinks a {
+  color: var(--color-black);
+}

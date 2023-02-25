@@ -1,0 +1,16 @@
+.licenseInfoContainer {
+  background-color: var(--color-grey-fade);
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+.licenseInfoTitle {
+  text-align: center;
+}
+
+.licenseItemContainer {
+  display: grid;
+  /* grid-template-columns: repeat(7, 1fr); */
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}

@@ -1,0 +1,10 @@
+.musicTableRowTr td {
+  vertical-align: middle;
+}
+
+/* Media queries */
+@media (max-width: 420px) {
+  .hideColumnMobile {
+    display: none;
+  }
+}

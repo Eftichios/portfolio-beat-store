@@ -1,0 +1,46 @@
+/* General Styling */
+.navTop {
+  -webkit-box-shadow: #000 0 0 5px;
+  -moz-box-shadow: #000 0 0 5px;
+  -ms-box-shadow: #000 0 0 5px;
+  box-shadow: #000 0 0 5px;
+}
+
+.navLinksContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.navToggleBtn {
+  cursor: pointer;
+  display: none;
+}
+
+.loginBtnContainer {
+  margin-left: 0.5rem;
+}
+
+/* Mobile specific */
+@media (max-width: 420px) {
+  .navLinksContainer {
+    position: relative;
+    grid-template-columns: 1fr;
+    display: none;
+  }
+
+  .navToggleBtn {
+    display: block !important;
+  }
+
+  .navLinksToggle {
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    background-color: var(--color-black);
+    position: absolute;
+    display: block;
+    top: 45px;
+    left: calc(100% - 100px);
+    z-index: 1;
+  }
+}

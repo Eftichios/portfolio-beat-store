@@ -1,0 +1,49 @@
+.heroImgContainer {
+  width: 100%;
+  position: relative;
+}
+
+.heroImgContainer .heroImg {
+  width: 100% !important;
+  position: relative !important;
+  max-height: 500px;
+
+  z-index: -10;
+}
+
+.heroImgContainer .heroImg::after {
+  content: "";
+  position: absolute;
+  background-image: url("/images/hero-img.jpg");
+  width: 100%;
+  background-image: cover;
+  transform: translate(0, -20%);
+}
+
+.heroImgContainer .heroImgText {
+  /* --primary-action: #f96c0038; */
+
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  background-color: #f96c003a;
+  padding: 50px;
+  border-radius: 1rem;
+  box-shadow: var(--color-black) 0 0 15px,
+    var(--secondary-action) 0px 0px 80px -7px;
+}
+
+.heroBtnContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.heroImgContainer .heroImgText .heroImgTextTitle {
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+  text-shadow: -5px 2px #f96c008a;
+}

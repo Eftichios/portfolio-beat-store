@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "MP3 Lease",
+    "price": 30,
+    "description": "2,500 Distribution Copies 100,000 Audio Streams"
+  },
+  {
+    "id": 2,
+    "title": "WAV (Lease)",
+    "price": 50,
+    "description": "5,000 Distribution Copies 200,000 Audio Streams"
+  },
+  {
+    "id": 3,
+    "title": "Trackouts",
+    "price": 100,
+    "description": "10,000 Distribution Copies 250,000 Audio Streams"
+  },
+  {
+    "id": 4,
+    "title": "Unlimited Use (WAV)",
+    "price": 200,
+    "description": "25,000 Distribution Copies Unlimited Audio Streams Unlimited Video Streams Unlimited Radio Stations Broadcasting RIghts"
+  },
+  {
+    "id": 5,
+    "title": "Unlimited Use",
+    "price": 250,
+    "description": "25,000 Distribution Copies Unlimited Audio Streams Unlimited Video Streams Unlimited Radio Stations Broadcasting RIghts"
+  },
+  {
+    "id": 6,
+    "title": "Premium Use",
+    "price": 500,
+    "description": "Unlimited Distribution Copies Unlimited Monetized Audio Streams Unlimited Radio Stations Content Identification Sync Monetization on YouTube Broadcasting Rights Unlimited Performances Unlimited Music Videos"
+  },
+  {
+    "id": 7,
+    "title": "Exclusive License",
+    "price": 3500,
+    "description": ""
+  }
+]

@@ -1,0 +1,17 @@
+.shoppingCartBtnContainer button {
+  background-color: var(--primary-action);
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 0.9fr);
+  align-items: center;
+  font-weight: 500;
+}
+
+.shoppingCartBtnContainer :is(button:hover, button:focus) {
+  background-color: var(--primary-action-hover);
+  transition: ease-in 0.1s;
+}

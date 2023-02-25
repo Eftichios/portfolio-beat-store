@@ -1,0 +1,63 @@
+.licenseItemCard {
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.25rem;
+  display: grid;
+  align-content: baseline;
+  position: relative;
+
+  /* background-image: url("/images/licnse-card-bg.jpg");
+  background-size: cover;
+  backdrop-filter: blur(8px); */
+}
+
+.licenseItemCard::after {
+  content: "";
+  background-image: url("/images/licnse-card-bg.jpg");
+  background-size: cover;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.25;
+  z-index: -5;
+}
+
+/* .licenseItemCard::after {
+  content: "";
+  position: absolute;
+  background-image: url("/images/licnse-card-bg.jpg");
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+} */
+
+.licenseItemBtnContainer {
+  padding: 2rem 0;
+}
+
+.licenseItemBtnContainer button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-action);
+  color: white;
+}
+
+.licenseItemBtnContainer :is(button:hover, button:focus) {
+  cursor: pointer;
+  background-color: var(--primary-action-hover);
+  transition: ease-in 0.1s;
+}
+
+.licensePrice {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.licenseDescription {
+  /* font-size: 1.12rem; */
+  font-weight: 500;
+}
